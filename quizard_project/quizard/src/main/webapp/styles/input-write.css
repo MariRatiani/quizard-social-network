@@ -1,0 +1,10 @@
+.input-write {
+    flex: 1;
+    height: 32px;
+    border-radius: 20px;
+    border-color: grey;
+    box-shadow: 2px;
+}
+
+.search-button {
+}

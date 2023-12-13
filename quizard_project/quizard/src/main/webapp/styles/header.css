@@ -1,0 +1,131 @@
+body {
+    padding-bottom: 90px;
+}
+
+.header {
+    background-color: rgb(0, 1, 1, 0.5);
+
+
+    /* background-color:rgb(0, 7, 27); */
+    /* background-color: rgb(255, 255, 255, 0.7); */
+    /* opacity: background-color 0.9; */
+    position: fixed;
+    height: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    border: outset ;
+    border-color: black;
+    z-index: 999;
+}
+
+.left-section {
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.middle-section {
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.quizzes-button,
+.create-button {
+    color: white;
+    border: white;
+    border: outset ;
+
+    background-color: rgb(0, 1, 1, 0.51);
+
+    /* color: rgb(100, 188, 255); */
+    /* background-color: rgb(255, 255, 255, 0.2); */
+    border-radius: 20px;
+    margin-right: 10px;
+    /* border-color: rgb(100, 188, 255); */
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+    /*
+        color: white;
+        background-color: ; */
+    border-radius: 30px;
+    cursor: pointer;
+
+    transition: opacity 0.2s,
+    background-color 0.16s,
+    color 0.16s;
+}
+
+.right-section {
+    width: 150px;
+    justify-content: end;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-right: 30px;
+    display: flex;
+}
+
+.quizard {
+    background-color: rgb(0, 1, 1, 0.01);
+    border: none;
+    color: border-radius(100, 188, 255);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.messages-button{
+    background-color: rgb(0, 1, 1, 0.01);
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 60px;
+}
+
+.image-message {
+    width: 45px;
+    height: 50px;
+}
+
+.User-button {
+    margin-left: 20px;
+    /* border: none; */
+    background-color: rgb(0, 1, 1, 0.51);
+    border-radius: 20px;
+    border-color: white;
+    font-size: 25px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+
+    transition: opacity 0.2s,
+    background-color 0.16s,
+    color 0.16s;
+}
+
+.User-button:hover,
+.quizzes-button:hover,
+.create-button:hover {
+    border-style:groove;
+    border-width: 2px;
+    color: rgb(0, 7, 27);
+    background-color: rgb(255, 255, 255, 0.11);
+    /* background-color: white; */
+}
+
+.User-button:active,
+.quizzes-button:active,
+.create-button:active {
+    border-style:groove;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255, 0.01);
+    background-color: rgb(0, 7, 27);
+    color: white;
+    opacity: 0.4;
+}
